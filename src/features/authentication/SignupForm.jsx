@@ -5,6 +5,8 @@ import FormRow from "../../ui/FormRow";
 import Input from "../../ui/Input";
 import { useSignup } from "./useSignup";
 
+// Email regex: /\S+@\S+\.\S+/
+
 function SignupForm() {
   const { signup, isPending } = useSignup();
   const { register, formState, getValues, handleSubmit, reset } = useForm();
@@ -71,7 +73,7 @@ function SignupForm() {
           {...register("passwordConfirm", {
             required: "This field is required",
             validate: (value) =>
-              value === getValues().password || "Passwords needs to match",
+              value === getValues().password || "Passwords need to match",
           })}
         />
       </FormRow>

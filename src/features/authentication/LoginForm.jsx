@@ -7,14 +7,13 @@ import { useLogin } from "./useLogin";
 import SpinnerMini from "../../ui/SpinnerMini";
 
 function LoginForm() {
-  const [email, setEmail] = useState("aliya23@example.com");
-  const [password, setPassword] = useState("aliya032");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const { login, isPending } = useLogin();
 
   function handleSubmit(e) {
     e.preventDefault();
     if (!email || !password) return;
-
     login(
       { email, password },
       {
@@ -39,6 +38,7 @@ function LoginForm() {
           disabled={isPending}
         />
       </FormRowVertical>
+
       <FormRowVertical label="Password">
         <Input
           type="password"
