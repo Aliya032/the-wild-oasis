@@ -2,6 +2,8 @@
 
 A web application built with React and Vite that serves as the foundation for a Cabin Management and Booking Platform. It's for administrators to explore and manage different cabins, Guests Check-ins, and Checkouts.
 
+[Try it here](https://the-wild-oasis-aliya.netlify.app/)
+
 ### Tech Stack
 
 - React
