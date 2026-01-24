@@ -4,7 +4,7 @@ A web application built with React and Vite that serves as the foundation for a 
 
 [Try it here](https://the-wild-oasis-aliya.netlify.app/)
 
-### Tech Stack
+## Tech Stack
 
 - React
 - React Router
@@ -15,7 +15,12 @@ A web application built with React and Vite that serves as the foundation for a 
 - Recharts
 - React Hot Toast / React Icons
 
-### Screenshots
+## Admin details:
+
+- email: wacovim914@noihse.com
+- password: jasper123
+
+## Screenshots
 
 ![screenshot-5](/public/s-5.png)
 ![screenshot-1](/public/s-1.png)
